@@ -34,7 +34,6 @@ every turn).
 | Name | Description | Secrets | System deps |
 |---|---|---|---|
 | `unit-convert` | 무게/길이/온도/부피 변환 | none | sh, awk |
-| `pick` | 랜덤 뽑기 | none | sh |
 | `korea-holidays` | 한국 공휴일 (2026-2027) | none | sh, awk, grep, date |
 
 ## Publishing a skill
