@@ -5,8 +5,8 @@
   "skills": [
     {
       "name": "unit-convert",
-      "version": "1.0.0",
-      "description": "단위 변환 (무게/길이/온도/부피). 요리 계량, 여행, 일상 변환.",
+      "version": "1.0.1",
+      "description": "단위 변환 (마일↔km, ℃↔℉, g↔kg/oz/lb/컵, ml↔리터/갤런/큰술/작은술). 요리 계량 컵 = 밀가루 120g 또는 액체 240ml.",
       "tags": ["utility", "calc", "ko"],
       "secrets_required": [],
       "system_deps": ["sh", "awk"]
