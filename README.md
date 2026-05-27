@@ -35,6 +35,7 @@ every turn).
 |---|---|---|---|
 | `unit-convert` | 무게/길이/온도/부피 변환 | none | sh, awk |
 | `korea-holidays` | 한국 공휴일 (2026-2027) | none | sh, awk, grep, date |
+| `lunar-converter` | 한국 음력 ↔ 양력 (1000-2050, 윤달 지원) | none | sh, python3 |
 
 ## Publishing a skill
 

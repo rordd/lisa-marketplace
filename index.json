@@ -18,6 +18,14 @@
       "tags": ["calendar", "ko"],
       "secrets_required": [],
       "system_deps": ["sh", "awk", "grep", "date"]
+    },
+    {
+      "name": "lunar-converter",
+      "version": "1.0.0",
+      "description": "한국 음력 ↔ 양력 변환 (1000-2050년, 윤달 지원). 설날/추석/제사일/생일 변환. LLM 정확도 매우 낮은 영역.",
+      "tags": ["calendar", "ko", "calc"],
+      "secrets_required": [],
+      "system_deps": ["sh", "python3"]
     }
   ]
 }
