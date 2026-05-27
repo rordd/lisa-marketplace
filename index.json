@@ -1,0 +1,31 @@
+{
+  "registry_version": "1.0",
+  "name": "lisa-marketplace",
+  "description": "Lisa skill marketplace — community skills installable via `marketplace_install <name>` chat command.",
+  "skills": [
+    {
+      "name": "unit-convert",
+      "version": "1.0.0",
+      "description": "단위 변환 (무게/길이/온도/부피). 요리 계량, 여행, 일상 변환.",
+      "tags": ["utility", "calc", "ko"],
+      "secrets_required": [],
+      "system_deps": ["sh", "awk"]
+    },
+    {
+      "name": "pick",
+      "version": "1.0.0",
+      "description": "랜덤 뽑기 — 후보 중 1개 또는 N개 무작위. 메뉴/순번/추천.",
+      "tags": ["utility", "fun"],
+      "secrets_required": [],
+      "system_deps": ["sh"]
+    },
+    {
+      "name": "korea-holidays",
+      "version": "1.0.0",
+      "description": "한국 공휴일 조회 (2026-2027). 다음 빨간날, 월별, 연도별. 정적 데이터, 외부 API 불필요.",
+      "tags": ["calendar", "ko"],
+      "secrets_required": [],
+      "system_deps": ["sh", "awk", "grep", "date"]
+    }
+  ]
+}
