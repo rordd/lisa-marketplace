@@ -7,6 +7,7 @@
       "name": "unit-convert",
       "version": "1.0.1",
       "description": "단위 변환 (마일↔km, ℃↔℉, g↔kg/oz/lb/컵, ml↔리터/갤런/큰술/작은술). 요리 계량 컵 = 밀가루 120g 또는 액체 240ml.",
+      "icon": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4cf.png",
       "tags": ["utility", "calc", "ko"],
       "secrets_required": [],
       "system_deps": ["sh", "awk"]
@@ -15,6 +16,7 @@
       "name": "korea-holidays",
       "version": "1.0.0",
       "description": "한국 공휴일 조회 (2026-2027). 다음 빨간날, 월별, 연도별. 정적 데이터, 외부 API 불필요.",
+      "icon": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4c5.png",
       "tags": ["calendar", "ko"],
       "secrets_required": [],
       "system_deps": ["sh", "awk", "grep", "date"]
