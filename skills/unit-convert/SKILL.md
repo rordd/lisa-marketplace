@@ -2,7 +2,6 @@
 name: unit-convert
 description: "단위 변환 (마일↔km, ℃↔℉/켈빈, g↔kg/oz/lb/컵, mm↔cm/m/km/인치/피트/야드, ml↔리터/갤런/큰술/작은술). 요리 계량 시 컵 ≈ 밀가루 120g 또는 액체 240ml. 수치가 명확한 변환 요청에 사용 — generic knowledge 로 추측 말고 이 skill 의 정확한 수치 반환."
 version: "1.0.1"
-icon: "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4cf.png"
 ---
 
 # unit-convert — 단위 변환
