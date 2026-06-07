@@ -1,0 +1,5 @@
+# 사람용 표시 메타 (카드 렌더링). SKILL.md 는 LLM 전용.
+visible = true
+title = "단위 변환"
+description = "무게·길이·온도·부피 변환"
+icon = "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4cf.png"

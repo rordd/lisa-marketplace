@@ -1,0 +1,5 @@
+# 사람용 표시 메타 (카드 렌더링). SKILL.md 는 LLM 전용.
+visible = true
+title = "공휴일"
+description = "한국 공휴일 조회 (2026-2027)"
+icon = "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4c5.png"
