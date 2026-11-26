@@ -1,0 +1,4 @@
+# 사람이 보는 표시 정보 (스킬 목록 화면). SKILL.md 는 모델만 읽는다.
+visible = true
+title = "TV 방송"
+description = "지금 보는 방송의 음성 · 자막 · 화질 정보"

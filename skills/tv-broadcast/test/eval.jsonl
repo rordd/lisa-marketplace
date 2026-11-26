@@ -1,0 +1,7 @@
+{"id": "tv-broadcast-01", "utt": "지금 보는 방송 정보 알려줘", "expect_skill": "tv-broadcast", "why": "지금 방송의 채널·신호 상태"}
+{"id": "tv-broadcast-02", "utt": "지금 이 채널 해상도 뭐야?", "expect_skill": "tv-broadcast", "why": "영상 정보(해상도)"}
+{"id": "tv-broadcast-03", "utt": "영어 자막으로 바꿔줘", "expect_skill": "tv-broadcast", "why": "자막 트랙 고르기"}
+{"id": "tv-broadcast-04", "utt": "자막 켜줘", "expect_skill": "tv-broadcast", "why": "자막 켜기·끄기"}
+{"id": "tv-broadcast-05", "utt": "자막 꺼줘", "expect_skill": "tv-broadcast", "why": "자막 끄기"}
+{"id": "tv-broadcast-06", "utt": "음성 언어 뭐 있어?", "expect_skill": "tv-broadcast", "why": "음성 트랙 목록"}
+{"id": "tv-broadcast-07", "utt": "7번으로 돌려줘", "forbid_skills": ["tv-broadcast"], "why": "채널 이동은 이 스킬 몫이 아님"}
