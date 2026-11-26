@@ -25,7 +25,7 @@ index.json           # catalog — name, version, description, tags, deps
 ```
 
 Lisa downloads `https://codeload.github.com/rordd/lisa-marketplace/zip/refs/heads/main`,
-extracts `skills/<name>/` into `~/.zeroclaw/workspace/skills/<name>/`, and reloads
+extracts `skills/<name>/` into `~/.zeroclaw/workspace/skills-market/<name>/`, and reloads
 on the next chat. No daemon restart required (skill loader rescans the directory
 every turn).
 
@@ -39,7 +39,7 @@ every turn).
 ## Publishing a skill
 
 1. Fork this repo.
-2. Add `skills/<name>/SKILL.md` + scripts.
+2. Add `skills/<name>/SKILL.md` + scripts. In `SKILL.md`, run a script from where Lisa installs it: `cd skills-market/<name> && sh scripts/<script> …`.
 3. Append an entry to `index.json` (keep alphabetical).
 4. Smoke test locally: `sh scripts/<entry>.sh ...`.
 5. PR.

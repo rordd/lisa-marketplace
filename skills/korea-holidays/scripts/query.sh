@@ -7,7 +7,7 @@ set -e
 TYPE="$1"
 ARG="$2"
 
-# 스크립트 위치 기준 data 파일 — `cd skills/korea-holidays && sh scripts/query.sh ...` 도, absolute path 호출도 둘 다 지원.
+# 스크립트 위치 기준 data 파일 — `cd skills-market/korea-holidays && sh scripts/query.sh ...` 도, absolute path 호출도 둘 다 지원.
 SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 DATA="$SCRIPT_DIR/../data/holidays.txt"
 

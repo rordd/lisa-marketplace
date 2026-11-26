@@ -1,7 +1,7 @@
 ---
 name: korea-holidays
 description: "한국 공휴일 조회. 다음 빨간날, 이번 달 공휴일, 특정 월/년 공휴일. 2026-2027 정적 데이터. 외부 API 불필요."
-version: "1.0.0"
+version: "1.0.1"
 ---
 
 # korea-holidays — 한국 공휴일
@@ -26,7 +26,7 @@ version: "1.0.0"
 ## Commands
 
 ```sh
-cd skills/korea-holidays && sh scripts/query.sh <type> [arg]
+cd skills-market/korea-holidays && sh scripts/query.sh <type> [arg]
 ```
 
 type:
